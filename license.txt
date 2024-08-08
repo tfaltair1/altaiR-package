@@ -1,0 +1,1471 @@
+﻿
+THIS IS A LEGALLY BINDING AGREEMENT BETWEEN YOU AND WORLD PROGRAMMING
+LIMITED. PLEASE READ CAREFULLY BEFORE DOWNLOADING, INSTALLING OR USING
+THE SOFTWARE.
+
+These terms, together with any Invoice (defined below), (together, the
+AGREEMENT) constitute a legal agreement between you (CUSTOMER) and World
+Programming Limited of Osprey House, Budds Lane, Romsey, Hampshire SO51
+0HA, United Kingdom (SUPPLIER), (together, the Parties) for the Software
+(defined below).
+
+
+Description of Licensed Software
+
+The Software is data analytics software for business analysts and data
+scientists for performing data mining and predictive modelling and
+developing and deploying data analytics applications. The Software has
+a built-in SAS language compiler that can be used to develop and run SAS
+language programs and combine programs written in the SAS, R, SQL and
+Python programming languages.
+
+
+IMPORTANT NOTICE TO ALL USERS
+
+THE SOFTWARE IS LICENSED NOT SOLD. SUPPLIER DOES NOT SELL THE SOFTWARE
+TO CUSTOMER. CUSTOMER SHALL NOT ACQUIRE ANY INTELLECTUAL PROPERTY RIGHTS
+IN THE SOFTWARE UNDER THIS AGREEMENT.
+
+BY INSTALLING OR USING THE SOFTWARE CUSTOMER AGREES TO THE TERMS OF THIS
+AGREEMENT.
+
+IF CUSTOMER IS A BUSINESS, THIS AGREEMENT WILL BIND CUSTOMER, CUSTOMER'S
+AFFILIATES AND CUSTOMER'S AND CUSTOMER'S AFFILIATES' RESPECTIVE EMPLOYEES,
+AGENTS, MEMBERS, CONTRACTORS AND CONSULTANTS ACTING ON CUSTOMER'S OR
+CUSTOMER'S AFFILIATES' BEHALF. CUSTOMER REPRESENTS THAT THE PERSON
+ACCEPTING THESE TERMS IS AUTHORISED TO ENTER INTO THIS AGREEMENT ON
+BEHALF OF CUSTOMER AND CUSTOMER'S AFFILIATES.
+
+IF CUSTOMER DOES NOT AGREE TO THE TERMS OF THIS AGREEMENT, CUSTOMER MUST
+NOT USE THE SOFTWARE AND MUST DELETE ANY AND ALL INSTALLATIONS AND
+COPIES OF THE SOFTWARE UNDER ITS CONTROL.
+
+IF CUSTOMER HAS ENTERED INTO A MASTER LICENCE AGREEMENT WITH SUPPLIER IN
+RESPECT OF USE OF THE SOFTWARE BY CUSTOMER THEN THE TERMS OF THAT MASTER
+LICENCE SHALL GOVERN USE OF THE SOFTWARE BY CUSTOMER AND CUSTOMER'S
+AFFILIATES INSTEAD OF THE TERMS OF THIS AGREEMENT.
+
+IF CUSTOMER HAS ENTERED INTO AN AGREEMENT WITH SOMEONE OTHER THAN
+SUPPLIER FOR CUSTOMER'S USE OF THE SOFTWARE (A RESELLER, OEM PROVIDER OR
+OUTSOURCE PROVIDER OF THE SOFTWARE), THE TERMS OF THIS AGREEMENT SHALL
+BE DEEMED TO APPLY IN THEIR ENTIRETY BETWEEN CUSTOMER AND SUPPLIER SAVE
+THAT ANY PAYMENT OF THE RELEVANT FEES (AS DEFINED BELOW) SHALL BE OWED
+TO THE RESELLER, OEM PROVIDER OR OUTSOURCE PROVIDER RATHER THAN TO
+SUPPLIER.
+
+SUPPLIER OFFERS A FREE ONE-MONTH EVALUATION OF THE SOFTWARE VIA SUPPLIER'S
+WEBSITE AT WORLDPROGRAMMING.COM SO THAT CUSTOMER HAS AN OPPORTUNITY TO
+EVALUATE THE SOFTWARE, INCLUDING TO CHECK THE SOFTWARE'S SUITABILITY FOR
+CUSTOMER'S NEEDS, PRIOR TO ENTERING INTO THIS AGREEMENT.
+
+ATTENTION IS DRAWN TO THE LIMITATIONS ON LIABILITY IN THIS AGREEMENT.
+SECTIONS 10.3, 10.5, 12.2, AND 12.3 REPRESENT ESSENTIAL OBLIGATIONS,
+WITHOUT WHICH SUPPLIER SHALL NOT ENTER INTO THIS AGREEMENT.
+
+
+=============================================================================
+1. Definitions and Interpretation
+=============================================================================
+
+1.1     The definitions and rules of interpretation in this section
+shall apply to this Agreement.
+
+
+
+AFFILIATE means a legal entity that Controls, is Controlled by or is
+under common Control with a party, where CONTROL means the possession,
+directly or indirectly, of the power to direct, through the ownership of
+more than fifty percent (50%) of its voting or equity securities,
+contract, voting trust or otherwise; the term CONTROLLED or CONTROLLING
+shall be interpreted accordingly.
+
+
+
+BUSINESS USER means an incorporated or unincorporated company, partnership,
+charity, not-for-profit organisation, governmental department, governmental
+or regulatory or other body or any Person acting for or on behalf of
+such incorporated or unincorporated company, partnership, charity,
+not-for-profit organisation, governmental department, governmental or
+regulatory or other body or Person which/who uses the Software for the
+purposes of their trade, business, craft or profession.
+
+
+
+CLOUD means a public or private elastic compute, storage and networking
+infrastructure.
+
+
+
+CUSTOMER DATA means data owned, held, processed or controlled by
+Customer.
+
+
+
+CONSULTANCY PROVIDER USE means use of the Software for Customer's
+provision of professional services to a third party, including the
+development and testing of computer programs, problem diagnosis,
+demonstration, feasibility or proof of concept work but not including
+the processing of that third party's data for their or Customer's
+business purposes.
+
+
+
+CONSUMER means a Person who uses the Software other than for the
+purposes of their trade, business, craft or profession. An Academic
+(defined below) can be a Consumer.
+
+
+
+DATA PROTECTION LEGISLATION means (1) the General Data Protection
+Regulation ((EU) 2016/679) (the GDPR) and any national implementing
+laws, regulations and/or secondary legislation, as amended or updated
+from time to time in the UK unless and until the GDPR is no longer
+directly applicable in the UK and then any successor legislation to the
+GDPR or the Data Protection Act 1998 and (2) any equivalent laws and/or
+regulations that apply to the Customer from time to time.
+
+
+
+DOCUMENTATION means all websites, manuals, documents, help systems,
+data, templates, examples and other information provided to Customer in
+any form relating to the Software.
+
+
+
+EARLY ACCESS SOFTWARE means Software that is released prior to Generally
+Available Software and has a reduced service lifetime as described in
+Supplier's software service lifetime policy as updated from time to
+time, available on Supplier's website.
+
+
+
+EVENT OUTSIDE PARTY'S CONTROL means any act or event beyond a Party's
+reasonable control, including failure of or interruption to public or
+private telecommunications networks.
+
+
+
+FULL LICENCE KEY means a Licence Key that enables the Software to
+operate for the full duration of the relevant Licence Period.
+
+
+
+GENERALLY AVAILABLE SOFTWARE means Software that is made available to
+all Licensees and is supported for the full service lifetime as described
+in Supplier's software service lifetime policy as updated from time to
+time available on Supplier's website.
+
+
+
+INVOICE means a document identified by an invoice number requesting
+payment of Licence Fees and setting out scope of Licenses sent by
+Supplier to Customer in accordance with this Agreement.
+
+
+
+LICENCE means an entitlement to use the Software as specified by a line
+item in an Invoice that identifies Software component, Licence Edition,
+Platform Type, Licence Period and any other scope specifications for
+that entitlement.
+
+
+
+LICENCE EDITION means licence edition as specified in a Licence.
+
+
+
+LICENCE FEES means the fees specified for a Licence.
+
+
+
+LICENCE KEY means a computer file provided to Customer by Supplier
+(either directly or through an authorised distributor) that enables
+operation of the Software.
+
+
+
+LICENCE PERIOD means the duration of a Licence specified in an Invoice.
+All Licence Periods shall end on the last day of the calendar month
+specified in the Invoice.
+
+
+
+OPERATING SYSTEM means the computer operating system on which Customer
+may install the Software as specified in the relevant Licence.
+
+
+
+PERSON means a human being.
+
+
+
+PERSONAL DATA means data subject to protection under Data Protection
+Legislation.
+
+
+
+PLATFORM TYPE(S) means the platform type(s) specified in the relevant
+Licence.
+
+
+
+PURCHASE ORDER means a document provided by Customer to Supplier that
+places an order in accordance with this Agreement.
+
+
+
+QUOTATION means a quotation document provided by Supplier to Customer
+that offers to Customer one or more Licences.
+
+
+
+QUOTATION REQUEST means a document provided by Customer to Supplier that
+requests a Quotation.
+
+
+
+REMOTE DESKTOP ACCESS means the use of the Software via remote desktop
+software by a Person to access a desktop login session on a networked
+Server or Workstation from the Person's local computer.
+
+
+
+RENEWAL REQUEST means a document provided by Customer to Supplier that
+requests the renewal of a Licence.
+
+
+
+RESELLER means an agent authorised by Supplier to distribute licences of
+the Software.
+
+
+
+SERVER means a physical or virtual computer system including mainframe
+computers that may enable the Software to make data or network services
+available to other users or computers or may allow the Software to be
+used directly or indirectly by multiple users concurrently, and may be
+located anywhere including in a datacentre, server room or server
+cabinet.
+
+
+
+SOFTWARE means any software components licensed to Customer by Supplier,
+together with any Updates, Upgrades, Technical Support and Documentation
+(all as defined in this Agreement) for that software that are provided
+to Customer.
+
+
+
+TECHNICAL PREVIEW SOFTWARE means preview, alpha, beta or other pre-release
+versions of the Software for which Supplier does not provide support as
+described in Supplier's software service lifetime policy as updated from
+time to time available on Supplier's website.
+
+
+
+TECHNICAL SUPPORT means the technical response service as set out in the
+Technical Support Schedule.
+
+
+
+TEMPORARY LICENCE KEY means a Licence Key that enables the Software to
+operate for a portion of a Licence Period prior to Supplier's receipt of
+Licence Fees in respect of the relevant Licence.
+
+
+
+UPDATE means a new version of the Software that provides minor fixes
+and/or additional features.
+
+
+
+UPGRADE means a new version of the Software that provides significant
+fixes and/or additional features.
+
+
+
+VIRTUAL DESKTOP INFRASTRUCTURE or VDI means use of the Software within
+a configuration of computers using server computers to provide independent
+virtualised desktop login sessions (each constituting a DESKTOP) to
+Persons working for Customer or on Customer's behalf via thin client
+hardware or software.
+
+
+
+WORKSTATION means a personal computer, workstation, desktop, laptop,
+notebook, netbook, tablet or smartphone that has a physical screen
+connected to it and that is not located within a data centre, server
+room, server rack or otherwise located in any situation in which it is
+not attended by a Person.
+
+1.2     Section and schedule headings shall not affect the interpretation
+of this Agreement.
+
+1.3     Unless the context requires otherwise:
+
+
+
+        (a)     words in the singular shall include the plural and vice
+versa;
+
+        (b)     any words following the terms INCLUDING, INCLUDE, IN
+PARTICULAR, FOR EXAMPLE or any similar expression shall be construed as
+illustrative and shall not limit the sense of the words, description,
+definition, phrase or term preceding those terms.
+
+1.4     References to "this section" are to top-level sections of this
+Agreement (e.g. 1, 2, 3) including all sub-sections of that section.
+References to "this sub-section" are to second-level sections of this
+Agreement (e.g. 1.1, 1.2, 1.3) including all sub-sections of that
+sub-section. References to schedules are to schedules of this Agreement.
+
+1.5     The schedules form part of this Agreement and shall have effect
+as if set out in full in the body of this Agreement. Any reference to
+this Agreement includes the schedules.
+
+1.6     Where an Affiliate of Customer installs and/or uses the Software,
+any reference to "Customer" shall be interpreted to mean "Customer and
+Customer's Affiliate(s)" as and where appropriate. Customer shall
+procure that each of its Affiliates complies with this Agreement.
+
+
+=============================================================================
+2. Scope
+=============================================================================
+
+
+
+This Agreement sets out the terms of Customer's use of and entitlement
+to the Software and Technical Support.
+
+
+=============================================================================
+3. Purchasing and Payment
+=============================================================================
+
+3.1     Supplier may issue a Quotation upon receipt of a Quotation
+Request or Renewal Request from Customer. Supplier will endeavour to
+ensure that the Quotation accurately reflects the Quotation Request or
+Renewal Request. It is Customer's responsibility to validate suitability
+of any Quotation for Customer's needs.
+
+3.2     If Customer wishes to purchase the Licence(s) set out in
+a Quotation, then either:
+
+
+
+        (a)     Customer shall pay immediately via electronic bank
+transfer or credit or debit card and Supplier shall issue to Customer an
+invoice and a Full Licence Key;
+
+
+
+OR
+
+        (b)     Customer shall issue a Purchase Order to Supplier to
+place an order for the Licence(s) set out in the Quotation. Within
+a reasonable time of receiving a Purchase Order Supplier shall issue an
+Invoice together with Temporary License Key(s) for thirty (30) days.
+Supplier's provision of a Temporary Licence Key to Customer shall not
+constitute a waiver of Customer's obligation to pay. Any use that
+Customer or a Customer's Affiliates make of the Software prior to
+Supplier's receipt of the applicable Licence Fees will be upon the basis
+that Customer complies with this Agreement. If Licence Fees are not
+received prior to expiration of Temporary Licence Key, then the relevant
+Licence is deemed to be terminated unless otherwise agreed in writing by
+the Parties. Supplier shall provide Customer with a Full Licence Key
+upon Supplier's receipt of Licence Fees in respect of the relevant
+Licence(s).
+
+3.3     Customer acknowledges that the Software is activated by a Full
+Licence Key that shall disable the Software at the end of the Licence
+Period of the relevant Licence. Each Licence Key is confidential and
+solely for Customer's and/or Customer's Affiliates' use: it may not be
+shared or transferred other than between Customer and Customer's
+Affiliates. Customer must keep securely any and all Licence Keys.
+
+3.4     Customer shall pay Invoices electronically by the due date shown
+on the invoice or to the bank account specified on the Invoice. Payment
+terms are thirty (30) days unless agreed otherwise between the Parties.
+
+3.5     All Invoices shall be paid by Customer to Supplier free and
+clear of all deductions. If any deduction or withholding is made by
+Customer or is required by law Customer shall pay to Supplier the full
+Invoice amount net of any deduction or withholding.
+
+3.6     Without prejudice to any other right or remedy that Supplier may
+have, if Customer fails to pay Supplier any sum due under this Agreement
+on the due date, Customer shall pay interest on the overdue amount at
+the rate of 4% per annum above the Bank of England's base rate from time
+to time. Such interest shall accrue on a daily basis from the due date
+until actual payment of the overdue amount and interest.
+
+
+=============================================================================
+4. Grant of Licence
+=============================================================================
+
+4.1     Subject to and conditional upon Supplier's receipt of the
+License Fees and in consideration of Customer agreeing to comply with
+this Agreement Supplier grants to Customer a non-exclusive, non-transferable,
+revocable, limited, right to use the Software, and to allow Customer's
+Affiliates to use the Software, in accordance with this Agreement during
+the Licence Period and shall deliver the Software to the Customer for
+such use.
+
+4.2     If Customer is a Consumer, use of the Software must be for
+Customer's own personal purposes. If Customer is a Business User then
+all use of the Software must be for Customer's and/or Customer's
+Affiliates' normal internal business purposes.
+
+4.3     Customer shall procure that each Customer Affiliate that uses
+the Software shall do so in accordance with this Agreement. In the event
+that any Customer Affiliate, or person acting or purporting to act on
+behalf of a Customer Affiliate, uses the Software otherwise than in
+accordance with this Agreement, Customer shall be liable to Supplier for
+any loss or damage Supplier suffers as a result of such use as if the
+use were Customer's own.
+
+4.4     Customer shall only be entitled to use the Software for Customer's
+normal business purposes in accordance with: (1) the usage rights
+ascribed to any Licences designated in the Invoice; and (2) any terms
+and restrictions specified in the Invoice and this Agreement.
+
+4.5     Customer shall be responsible for obtaining any necessary
+licences and/or permissions to import the Software into country of use
+by Customer. Supplier shall obtain all necessary licences and/or
+permissions to export the Software from Supplier's country of residence
+(UK) to Customer's country of residence.
+
+4.6     Customer shall permit only its authorised employees, agents,
+members, contractors and consultants to use the Software and shall
+procure that only Customer's Affiliates' employees, agents, members,
+contactors and consultants use the Software, in each case solely in
+accordance with this Agreement.
+
+4.7     Supplier may offer Technical Preview Software to Customer.
+Customer may use Technical Preview Software in place of the Software for
+the relevant Licence in accordance with all this Agreement. Customer may
+install both Generally Available Software and Technical Preview Software
+at the same time. Customer acknowledges that: (a) Technical Preview
+Software is experimental, may be substantially different from the
+Generally Available Software, may be incompatible with other versions of
+the Software and may not behave as expected; (b) Technical Preview
+Software may employ lesser or different privacy and security measures
+than those present in the Software; (c) Technical Support, Upgrades,
+Updates and Documentation in respect of Technical Preview Software are
+provided entirely at Supplier's discretion.
+
+4.8     Notwithstanding anything to the contrary in this Agreement,
+Technical Preview Software is provided "as is" and no warranty, implied
+or express, applies to Technical Preview Software. Supplier is not
+responsible for any damage caused by or to Customer or a Customer
+Affiliate by Technical Preview Software.
+
+4.9     Supplier may offer Customer Early Access Software. Early Access
+Software offers access to new features of the Software before those
+features are released in Generally Available Software. Access to
+Technical Support in relation to Early Access Software is solely at
+Supplier's discretion and subject to prior written agreement between the
+Parties. Use of Early Access Software by Customer must be in accordance
+with this Agreement.
+
+
+=============================================================================
+5. Rights and Restrictions
+=============================================================================
+
+5.1     During the Licence Period, Customer may, in accordance with and
+subject to Customer's and Customer's Affiliates' compliance with this
+Agreement:
+
+
+
+        (a)     download, install and use the Software for Customer's
+personal use if Customer is a Consumer or Customer's normal internal
+business purposes if Customer is a Business User;
+
+        (b)     make one back-up copy of the Software; and
+
+        (c)     receive and use any Upgrade or Update as may be made
+available by Supplier from time to time.
+
+5.2     Customer is entitled to Technical Support.
+
+5.3     Except as expressly set out in this Agreement, Customer undertakes:
+
+
+
+        (a)     not to copy the Software or any part of it except where
+such copying is necessary for the ordinary use of the Software;
+
+        (b)     not to rent, resell, lease, sub-license, transfer, loan
+or permit the use of the Software by any third party or person, or in
+any other way part with the Software in whole or part;
+
+        (c)     not to translate, merge, adapt, vary, or otherwise make
+alterations to the whole or any part of the Software, nor permit the
+Software or any part of it to be combined with, or become incorporated
+in, any other software or to create derivative works from the Software;
+
+        (d)     to keep all copies of the Software secure and to
+maintain accurate and up-to-date records of the number and locations of
+all copies and/or installations of the Software;
+
+        (e)     to supervise and control use of the Software in accordance
+with this Agreement;
+
+        (f)     not to circumvent, remove or disable any copyright
+notices or protection mechanisms included with the Software; and
+
+        (g)     not to use the Software or any information about the
+Software provided by Supplier to produce, improve or modify software to
+produce the same or similar functionality as the Software.
+
+
+=============================================================================
+6. Usage Rights and Licence Editions
+=============================================================================
+
+6.1     The following definitions shall apply
+
+
+
+APPLICATION PROVIDER USE means use of the Software within or from
+a computer program developed by Customer or for Customer or that
+Customer has the right to use and that makes use of the Software and
+that has significantly different functionality to the Software (APPLICATION) to
+provide services to Customer's customers or potential customers via the
+Application. Under no circumstances shall anyone other than Customer
+have access to the Software.
+
+
+
+BUREAU PROVIDER USE means use of the Software for processing third-party
+data provided to Customer by or on behalf of that third party, either
+for Customer's own business purposes or those of the third party who
+engages Customer to provide this service (Bureau Provider Use).
+
+
+
+EVALUATION USE means evaluating the Software for use in the course of
+Customer's trade, business, profession or craft if Customer is a Business
+User or for Customer's personal purposes if Customer is a Consumer.
+
+
+
+DEMONSTRATION USE means using the Software solely for the purpose of
+demonstrating it to a third party in order for that third party to
+evaluate the Software for use in the course of its trade, business,
+profession or craft or, if the third party is a Consumer, for their
+personal purposes.
+
+
+
+DEVELOPMENT AND TESTING USE means use of the Software to test, benchmark,
+create or modify computer programs or to verify the operation of such
+programs.
+
+
+
+DISASTER RECOVERY USE means use of the Software in a disaster recovery
+environment in the event that Customer's production environment is
+unavailable until such time as Customer's production environment is
+restored and for reasonable periodic testing of that disaster recovery
+environment.
+
+
+
+PRODUCTION USE means use of the Software in Customer's production
+environment for the purposes of processing live or historic data.
+
+6.2     Customer shall use the Software solely in accordance with the
+usage rights accorded to the Licence Edition(s) specified in the
+relevant Licence.
+
+6.3     ACADEMIC EDITION
+
+
+
+An Academic Edition Licence is exclusively available to recognised
+not-for-profit academic or educational institutions (ACADEMIC INSTITUTIONS) and
+Persons who are accredited or matriculated students or members of
+academic staff at an Academic Institution (ACADEMIC).
+
+
+
+If Customer is an Academic Institution Customer may use, and may
+authorise Academics to use, the Software solely for the purposes of
+providing or carrying out research, education, tuition or study in
+connection with the courses offered by the Academic Institution or
+research undertaken on behalf of the Academic Institution. The maximum
+number of Academics that can be authorised to use the Software at any
+one time is specified in an Invoice.
+
+
+
+If Customer is an Academic that has acquired an Academic Edition,
+Customer may use the Software for research or study in connection with
+Customer's role at the Academic Institution. If Customer ceases to
+maintain a role at an Academic Institution, this Agreement shall
+terminate with immediate effect.
+
+
+
+All research undertaken using the Software shall be strictly in accordance
+with the definition of Research and Experimental Development (R and
+D) according to section 2.1 of the OECD Frascati Manual 2015 available
+at https://www.oecd.org/innovation/inno/frascati-manual.htm, which is as
+follows: "R&D comprise creative and systematic work undertaken in order
+to increase the stock of knowledge -- including knowledge of humankind,
+culture and society -- and to devise new applications of available
+knowledge". Supplier requires Customer to place any results of research
+into the public domain before or at the same time as Customer provides
+the results to commercial sponsors or other sources of research funding.
+
+6.4     APPLICATION PROVIDER EDITION
+
+
+
+An Application Provider Edition Licence entitles Customer to use the
+Software for Application Provider Use, Development and Testing Use and
+Production Use.
+
+6.5     COMMUNITY EDITION
+
+
+
+A Community Edition Licence entitles Customer to use the Software solely
+for Development and Testing Use and Production Use, in accordance with
+the terms set out in this Agreement.
+
+
+
+If Customer is a Business User then each and every Person that uses the
+Software must personally register on Supplier's website for use of the
+Software on behalf of the Business providing that Person's name,
+personal work email address and business address, download the Software
+and obtain the Software Licence Key from Supplier's website and install
+the Software, accept the terms of this Licence Agreement and apply the
+Licence Key to the Software. Customer may not, however, permit any
+Affiliate or any Person on behalf of an Affiliate to use the Software.
+Customer is not entitled to acquire or use a Community Edition Licence
+if Customer has acquired any other Edition Licences or makes use of the
+Software under a Master Licence agreement.
+
+
+
+Customer may not use or connect to WPS Hub software or services from the
+Software.
+
+
+
+The Software may collect information about Customer's use of the
+Software and send the information to Supplier. Supplier may use this
+information to provide services and improve Supplier's products and
+services.
+
+
+
+The Software is provided "as is". Supplier shall not provide any
+Technical Support.
+
+
+
+To the extent that the terms of this section are more restrictive than
+terms elsewhere in this Agreement, these terms will prevail.
+
+6.6     DEMONSTRATION EDITION
+
+
+
+A Demonstration Edition Licence entitles Customer to use the Software
+solely for Demonstration Use.
+
+6.7     DEVELOPMENT EDITION
+
+
+
+A Development Edition Licence entitles Customer to use the Software
+solely for Development and Testing Use.
+
+6.8     EVALUATION EDITION
+
+
+
+An Evaluation Edition Licence entitles Customer to use the Software
+solely for Evaluation Use.
+
+6.9     STANDARD EDITION
+
+
+
+A Standard Edition Licence entitles Customer to use the Software solely
+for Bureau Provider Use, Consultancy Provider Use, Development and
+Testing Use, and Production Use.
+
+6.10    PLATFORM TYPES
+
+
+
+        (a)     WORKSTATION
+
+
+
+In respect of Software licensed for use on a Workstation Customer may
+install one copy of the Software on each Workstation up to the maximum
+number of Workstations permitted by the Licence (each an AUTHORISED
+WORKSTATION). If the Software has been licensed to Customer for use in
+a VDI, Customer may install the Software in the VDI. In that case, the
+Software may only be used via Desktops in that VDI and the maximum
+number of Desktops presented at any one time must not exceed the maximum
+permitted number specified in the relevant Invoice.
+
+
+
+Software licensed for use on a Workstation shall not be installed on
+a Server or a workstation computer used as a Server. The sole exception
+is if the Software has been licensed to Customer for use in a VDI in
+which case the Software shall only be installed on a Server within the
+VDI and shall only be used via Desktops in that VDI.
+
+
+
+Only one Person shall use the Software on any one Authorised Workstation
+at any one time or in the case of a VDI on any one Desktop at any one
+time. Provided that the Software is installed and used on no more than
+the maximum number of permitted Authorised Workstations (as specified in
+the relevant Invoice) at any one time, Customer may transfer the
+Software from an Authorised Workstation to another Workstation. This
+Workstation becomes the Authorised Workstation provided that the
+Software is immediately removed from the original Authorised Workstation.
+Customer may not do this to share a licence between workstation computers
+or facilitate a multi-user environment for any single installation of
+the Software.
+
+
+
+Any scheduled or automated use of the Software on a Workstation may only
+be under the direct control of and for the direct benefit of the single
+Workstation user of the Software in fulfilling their business tasks.
+
+
+
+No direct or indirect access to the Software on an Authorised Workstation
+from other computers networked with the Authorised Workstation is
+permitted, with the sole exception that the single Workstation user of
+the Software may access the Software on the Authorised Workstation via
+Remote Desktop Access. Customer may not do this to share a licence
+between workstation computers or facilitate a multi-user environment for
+any single installation of the Software.
+
+        (b)     SERVER
+
+
+
+Software licensed for use on one or more Server may be installed on
+a Server or workstation computer used as a Server (also a SERVER) in
+accordance with the specifications of a Licence that may include any
+of:
+
+
+
+                (i)     Number of installations of the Software;
+
+                (ii)    Size, capacity or specification of each Server;
+
+                (iii)   Aggregate size, capacity or specification of the
+Servers;
+
+                (iv)    Maximum concurrent users of the Software;
+
+                (v)     Named users of the Software.
+
+
+
+Scheduled or automated use of the Software and batch processing is
+permitted on Servers for the usage purposes permitted by the relevant
+Licence.
+
+        (c)     CLOUD
+
+
+
+Software licensed for use in a Cloud environment may be installed and
+used within a Cloud environment according to the limitations specified
+in a Licence that may include any of:
+
+
+
+                (i)     Maximum or measured number of virtual machines
+and/or containers on which Software is installed or used;
+
+                (ii)    Maximum or measured size/capacity/specification
+of each virtual machine and/or container on which Software is installed
+or used;
+
+                (iii)   Maximum or measured aggregate size/capacity/specification
+of all virtual machines and/or containers on which Software is installed
+or used;
+
+                (iv)    Maximum concurrent users of the Software;
+
+                (v)     Named users of the Software;
+
+                (vi)    Maximum or measured deployed programs or
+models;
+
+                (vii)   Maximum or measured aggregate workload by count
+and/or system utilisation;
+
+
+
+Scheduled or automated use of the Software and batch processing is
+permitted in Cloud environments for the usage purposes permitted by the
+relevant Licence.
+
+
+=============================================================================
+7. Commencement and Duration
+=============================================================================
+
+7.1     This Agreement shall commence upon the date upon which the
+Customer clicks through, accepting these terms or the date upon which
+the Customer starts to use the Software, whichever is the earlier and
+shall expire at the end of the Licence Period, unless terminated earlier
+in accordance with this Agreement.
+
+7.2     Each Invoice shall form a part of this Agreement and shall not
+form a separate contract.
+
+
+=============================================================================
+8. Intellectual property rights
+=============================================================================
+
+8.1     Customer acknowledges that all legal and beneficial rights,
+title, and interest in the Software and Documentation and all intellectual
+property rights in or relating to the Software and Documentation
+anywhere in the world belong to Supplier or Supplier's own licensor(s),
+that rights to use the Software are licensed (not sold) to Customer, and
+that Customer has no rights in, or to, the Software other than the right
+to use it in accordance with this Agreement.
+
+8.2     Customer acknowledges that it has no rights to access the
+Software in source code form.
+
+8.3     Customer shall under no circumstances deposit or disclose the
+source code of the Software. If at any time and for any reason Supplier
+is obliged to deposit or disclose the source code of the Software
+with/to Customer or any state, governmental or regulatory body by reason
+of Customer's or Customer's Affiliate's use or licensing of the Software
+then Supplier shall be entitled to immediately terminate this Agreement
+and Customer shall be entitled to a refund of any unused portion of the
+Licence Fees paid or payable by Customer in respect of the License
+Period during which the termination occurs.
+
+8.4     If Customer wishes to achieve interoperability between the
+Software and another software program then upon Customer's written
+request specifying the purpose for which the information is required,
+Supplier will provide information necessary to achieve such interoperability
+to the extent required by applicable law. As such, Customer warrants and
+agrees not to disassemble, reverse engineer or decompile the Software
+for any purpose. Customer agrees to keep such information confidential
+and to use it solely for the purposes of achieving such interoperability.
+
+
+=============================================================================
+9. Data Protection, Security and Integrity
+=============================================================================
+
+9.1     The Parties shall comply with all requirements of the Data
+Protection Legislation which are applicable to each of them. This
+section is in addition to, and does not relieve, remove or replace, the
+Parties' respective obligations under the Data Protection Legislation.
+
+9.2     Neither Party shall provide to the other Party any Personal Data
+other than is necessary for administration of this Agreement including
+sales, billing, customer service and technical support. Customer shall
+not provide to Supplier any Customer Data. The Supplier shall not be
+considered a processor of Customer's Personal Data or Customer Data. If
+Customer sends data to Supplier in connection with Technical Support
+then Customer shall send only anonymised data.
+
+9.3     Each Party shall ensure that it has all necessary and appropriate
+consents and notices in place to enable lawful transfer of Personal Data
+to the other Party for the duration of this Agreement so that receiving
+Party may fairly and lawfully use, process and transfer the Personal
+Data for the purpose of administering this Agreement.
+
+9.4     Each Party acknowledges that, in relation to any Personal Data
+received from the other Party (the sending Party) and processed by the
+receiving Party:
+
+
+
+        (a)     the sending Party is the controller and the receiving
+Party is the processor for the purposes of the Data Protection Legislation; and
+
+        (b)     the receiving Party shall process that Personal Data
+only for the administration of and duration of this Agreement and on the
+sending Party's written instructions unless the receiving Party is
+required by applicable law to process Personal Data.
+
+9.5     The sending Party will ensure that it has all necessary appropriate
+consents and notices in place to enable lawful transfer of the Personal
+Data to the other Party for the duration and for the purpose of this
+Agreement so that the receiving Party may lawfully use, process and
+transfer the personal data in accordance with this Agreement.
+
+9.6     The receiving Party shall, in relation to any Personal Data
+processed in connection with this Agreement:
+
+
+
+        (a)     Process that Personal Data only on the written instructions
+of the sending Party unless the receiving Party is required by law to
+process the Personal Data;
+
+        (b)     ensure that it has in place commercially reasonable
+technical and organisational measures to protect against unauthorised or
+unlawful processing of Personal Data and against accidental loss or
+destruction of, or damage to, Personal Data, appropriate to the harm
+that might result from the unauthorised or unlawful processing or
+accidental loss, destruction or damage and the nature of the data to be
+protected, having regard to the state of technological development and
+the cost of implementing any measures. Those measures may include, where
+appropriate, pseudonymising and encrypting Personal Data, ensuring
+confidentiality, integrity, availability and resilience of its systems
+and services, ensuring that availability of and access to Personal Data
+can be restored in a timely manner after an incident, and/or regularly
+assessing and evaluating the effectiveness of the technical and organisational
+measures adopted by it;
+
+        (c)     ensure that the individuals allowed to process Personal
+Data under this Agreement will respect the confidentiality of the
+Personal Data processed;
+
+        (d)     neither appoint sub-processors without the sending
+Party's prior written approval, nor transfer any Personal Data outside
+of the European Economic Area (EEA) unless the following conditions are
+fulfilled:
+
+
+
+                (i)     the receiving Party has put in place appropriate
+safeguards required under Data Protection Legislation in relation to the
+transfer;
+
+                (ii)    the data subject has enforceable rights and
+effective legal remedies; and
+
+                (iii)   the receiving Party complies with the sending
+Party's reasonable instructions notified to the receiving Party in
+advance with respect to the processing of the Personal Data;
+
+        (e)     assist the sending Party, at the sending Party's cost,
+in responding to any request from a data subject and in ensuring
+compliance with the sending Party's obligations under the Data Protection
+Legislation with respect to security, breach notifications, impact
+assessments and consultations with supervisory authorities or regulators;
+
+        (f)     notify the sending Party without undue delay on becoming
+aware of a personal data breach;
+
+        (g)     at the sending Party's written direction, delete or
+return Personal Data and copies thereof to the sending Party on termination
+of the Agreement unless required by applicable law to store the Personal
+Data; and
+
+        (h)     maintain complete and accurate records and information
+to demonstrate the receiving Party's compliance with this section.
+
+9.7     Either Party may, at any time on no fewer than thirty (30) days'
+notice and upon mutual agreement, revise this section by replacing it
+with any alternative controller to processor requirements or similar
+terms forming part of an applicable certification scheme that shall
+apply when replaced by attachment to this Agreement.
+
+
+=============================================================================
+10. Representations and warranties
+=============================================================================
+
+10.1    Each Party warrants and represents to the other Party that it
+has the authority to enter into this Agreement and that the person
+signing this Agreement is duly authorised to sign it. Each Party
+indemnifies, holds harmless and agrees to defend the other Party in
+respect of any third-party claims, suits, demands, actions, damages,
+fines and reasonable fees, costs and expenses, excluding attorneys'
+fees, arising from the indemnifying Party's breach, if any, of this
+warranty.
+
+10.2    LIMITED WARRANTY. Supplier warrants that it shall take reasonable
+commercial efforts to ensure that the Software, in the form and when
+provided to Customer, is free of viruses, malware or other harmful
+code.
+
+10.3    SUPPLIER EXCLUDES ALL IMPLIED WARRANTIES, CONDITIONS AND OTHER
+TERMS, EXPRESS OR IMPLIED, WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE
+OR OTHERWISE, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, INFORMATIONAL CONTENT OR
+ACCURACY, QUIET ENJOYMENT, TITLE AND NON-INFRINGEMENT, ERROR-FREE
+OPERATION, WITH REGARD TO THE SOFTWARE, AND THE PROVISION OF OR FAILURE
+TO PROVIDE SUPPORT SERVICES. SUPPLIER DOES NOT WARRANT THE PERFORMANCE
+OR RESULTS CUSTOMER MAY OBTAIN BY USING THE SOFTWARE NOR THAT THE
+SOFTWARE IS ERROR-FREE.
+
+10.4    CUSTOMER AGREES THAT IT IS SOLELY RESPONSIBLE FOR THE SUITABILITY
+OF THE SOFTWARE AND ANY DATA GENERATED OR PROCESSED BY THE SOFTWARE FOR
+CUSTOMER'S OR CUSTOMER'S AFFILIATES' INTENDED USE, AND CUSTOMER WILL
+DEFEND, INDEMNIFY AND HOLD SUPPLIER, ITS OFFICERS AND EMPLOYEES HARMLESS
+FROM ANY THIRD-PARTY CLAIMS, DEMANDS, OR SUITS THAT ARE BASED UPON ANY
+LACK OF SUITABILITY OF THE SOFTWARE FOR CUSTOMER'S USE OR ANY DATA
+GENERATED BY THE SOFTWARE IN CUSTOMER'S USE.
+
+10.5    LIMITED REMEDY. If Supplier breaches the Limited Warranty it
+will, at its sole election, either (i) repair or replace the Software at
+no charge or (ii) accept return of the Software for a refund of the full
+amount paid, if any. These are Customer's only remedies for breach of
+the Limited Warranty.
+
+10.6    THE LIMITED WARRANTIES SET FORTH IN THIS SECTION IS THE ONLY
+WARRANTIES MADE BY SUPPLIER, AND THE LIMITED REMEDIES SET FORTH IN THIS
+SECTION STATE CUSTOMER'S SOLE AND EXCLUSIVE REMEDIES AGAINST SUPPLIER
+FOR BREACH OF WARRANTY.
+
+
+=============================================================================
+11. Intellectual Property Indemnity
+=============================================================================
+
+11.1    Notwithstanding anything to the contrary in this Agreement
+Supplier undertakes at its own expense to defend Customer or, at
+Supplier's option and in Supplier's absolute discretion, settle any
+claim or action brought against Customer by a third party alleging that
+Customer's possession or use of the Software (or any part thereof) in
+accordance with this Agreement infringes that third party's intellectual
+property rights (CLAIM) and Supplier shall be responsible for any
+reasonable direct losses, damages and costs (including reasonable legal
+fees incurred by legal advisors appointed or approved by Supplier) incurred
+by or awarded against Customer as a result of or in connection with any
+such Claim. Supplier's indemnification obligations in this section are
+conditional on Customer:
+
+
+
+        (a)     as soon as reasonably practicable, giving written notice
+of the Claim to Supplier, specifying the nature of the Claim in reasonable
+detail;
+
+        (b)     not making any admission of liability, agreement or
+compromise in relation to the Claim without Supplier's prior written
+consent;
+
+        (c)     not incurring any legal expenses in respect of the Claim
+without Supplier's prior written approval;
+
+        (d)     allowing Supplier to, in its absolute discretion, assume
+conduct and control of any proceedings related to the Claim and to
+defend, avoid or compromise the Claim in whatever way Supplier sees fit
+with its own choice of legal advisers. Customer may, at Customer's sole
+expense, appoint additional legal advisers but Supplier shall have no
+obligation to indemnify Customer in respect of any fees or expenses
+incurred by such legal advisers;
+
+        (e)     giving Supplier and its professional advisers access at
+reasonable times (on reasonable prior notice) to Customer's premises,
+officers, directors, employees, agents, representatives or advisers, and
+to any relevant assets, accounts, documents and records within Customer's
+possession, custody or control so as to enable Supplier and its professional
+advisers to examine them and to take copies (at Supplier's expense) for
+the purpose of assessing and/or defending the Claim; and
+
+        (f)      taking such action Supplier may reasonably request to
+avoid, dispute, compromise or defend the Claim.
+
+11.2    If any Claim is made, or in Supplier's opinion is likely to be
+made, against Customer, Supplier may at its sole election (in so far as
+is permitted under applicable law) and expense:
+
+
+
+        (a)     procure for Customer the right to continue to use the
+Software (or any part thereof) in accordance with this Agreement and
+Customer's applicable Licence; or
+
+        (b)     modify, repair or replace the Software with functionally
+equivalent non-infringing software if Supplier determines in Supplier's
+discretion that it is feasible to do so. Insofar as applicable law
+permits, Supplier shall have no other liability to Customer except as
+otherwise expressly provided in this section;
+
+        (c)     if Supplier modifies, repairs or replaces the Software,
+the modification, repair or replacement shall comply with the warranties
+given in this Agreement;
+
+        (d)     if Supplier determines in Supplier's discretion not to
+modify, repair or replace the Software with a functionally-equivalent
+non-infringing version, Supplier may terminate this Agreement and/or any
+Licence immediately by written notice to Customer and shall refund any
+remaining unused whole months of the Licence Fee paid by Customer for
+the applicable Licence Period.
+
+11.3    Without prejudice to any warranties and/or liabilities that are
+binding under applicable law, this section constitutes Customer's
+exclusive remedy and Supplier's only liability in respect of Claims and,
+for the avoidance of doubt, is subject to section 13.4.
+
+11.4    Any indemnities Supplier provides, and any obligation on
+Supplier to modify, repair or replace the Software, shall not apply if
+the Claim results, in whole or in part, from Customer's conduct or the
+conduct of someone acting on Customer's behalf. In particular, but
+without limitation, Supplier shall have no obligation or liability to
+Customer if Customer or someone acting on Customer's behalf has altered,
+modified or amended the Software in any way or used it otherwise than in
+accordance with this Agreement or in combination with unsuitable or
+poorly maintained software or hardware.
+
+
+=============================================================================
+12. Limitation of liability
+=============================================================================
+
+12.1    Customer acknowledges that the Software has not been developed
+to meet any of Customer's individual requirements, and that it is
+Customer's responsibility to ensure that the features and operational
+capability of the Software, including any Updates or Upgrades, meet
+Customer's requirements before Customer licenses or uses the Software
+under this Agreement. Customer acknowledges that Customer has had the
+opportunity to test and evaluate the Software prior to purchase.
+
+12.2    The Software is not fault-tolerant and is not designed, manufactured
+or intended for use with hazardous environments or high-risk activities
+requiring a fail-safe performance. Customer agrees not to use the
+Software in connection with activities in which the failure of the
+Software could lead to death, personal injury, or severe physical or
+environmental damage. Supplier and its licensors specifically disclaim
+any express or implied warranty of fitness for high-risk activities.
+
+12.3    IN THE EVENT THAT EITHER PARTY SEEKS TO CLAIM DAMAGES FROM THE
+OTHER PARTY FOR ANY REASON OTHER THAN INTELLECTUAL PROPERTY INFRINGEMENT,
+THEY CAN RECOVER FROM THE OTHER PARTY ONLY DIRECT DAMAGES UP TO THE
+AMOUNT CUSTOMER HAS PAID FOR THE RELEVANT LICENCE DURING THE CURRENT
+LICENCE PERIOD.
+
+12.4    NEITHER PARTY SHALL UNDER ANY CIRCUMSTANCES WHATEVER BE LIABLE
+TO THE OTHER PARTY FOR ANY OTHER DAMAGES, WHETHER IN CONTRACT, TORT
+(INCLUDING NEGLIGENCE), BREACH OF STATUTORY DUTY, OR OTHERWISE, ARISING
+UNDER OR IN CONNECTION WITH THIS AGREEMENT OR ARISING OUT OF THE USE OR
+MISUSE OF THE SOFTWARE. SUCH OTHER DAMAGES MAY INCLUDE:
+
+
+
+        (a)     LOSS OF PROFITS, SALES, BUSINESS, OR REVENUE;
+
+        (b)     BUSINESS INTERRUPTION;
+
+        (c)     LOSS OF ANTICIPATED SAVINGS;
+
+        (d)     LOSS OR CORRUPTION OF DATA OR INFORMATION;
+
+        (e)     LOSS OF BUSINESS OPPORTUNITY, GOODWILL OR REPUTATION; OR
+
+        (f)     ANY SPECIAL, INDIRECT, CONSEQUENTIAL OR PURE ECONOMIC
+LOSS, DAMAGE, COSTS, CHARGES OR EXPENSES,
+
+
+
+WHETHER OR NOT REASONABLY FORESEEABLE AND EVEN IF SUPPLIER HAS BEEN
+ADVISED OF THE POSSIBILITY THAT CUSTOMER MIGHT INCUR THAT LOSS OR TYPE
+OF LOSS, OR IF REPAIR, REPLACEMENT OR A REFUND FOR THE SOFTWARE DOES NOT
+FULLY COMPENSATE CUSTOMER FOR ANY LOSSES.
+
+12.5    Nothing in this Agreement shall limit or exclude either Party's
+liability for:
+
+
+
+        (a)     intellectual property infringement;
+
+        (b)     wilful or grossly negligent conduct;
+
+        (c)     death or personal injury resulting from the other
+Party's negligence;
+
+        (d)     fraud or fraudulent misrepresentation; or
+
+        (e)     any other liability that cannot be excluded or limited
+by applicable law.
+
+
+=============================================================================
+13. Termination
+=============================================================================
+
+13.1    In the event that Customer commits a material or persistent
+breach of this Agreement that Customer fails to remedy within thirty
+(30) days after the service of a written notice requiring Customer to do
+so, Supplier may, at its option and immediately upon written notice,
+terminate this Agreement in its entirety (and all Licenses shall
+terminate immediately) or terminate the Licence to which Customer's
+breach relates. No refund of any Licence Fees shall be payable.
+
+13.2    Supplier may terminate this Agreement immediately upon written
+notice to Customer if Customer: ceases, or threaten to cease, to trade,
+or an order is made or a resolution is passed for the winding up of
+Customer; an order is made for the appointment of an administrator to
+manage Customer's affairs or documents are filed with a court of
+competent jurisdiction for the appointment of an administrator or notice
+of intention to appoint an administrator is given; a receiver is
+appointed of any of Customer's assets or undertakings; if circumstances
+arise which entitle a court of competent jurisdiction or a creditor to
+appoint a receiver or manager of Customer; if another person takes
+possession of or sells such of Customer's assets or Customer make any
+arrangement or composition with Customer's creditors; if Customer makes
+an application to a court of competent jurisdiction for the protection
+of Customer's creditors in any way; in the event that there is a change
+in Customer's control; or if Customer takes or suffers any similar or
+analogous action to any of the foregoing in any jurisdiction in consequence
+of debt. If Supplier is legally required to write to Customer's administrator
+or equivalent insolvency practitioner to enquire whether they wish the
+Agreement to continue, this Agreement shall only terminate if they do
+not wish to continue the Agreement. No refund of any Licence Fees shall
+be payable.
+
+13.3    Either Party may terminate this Agreement for any reason or no
+reason at all by giving the other Party sixty (60) days' written notice
+and Customer may continue to use the Software for any Licences granted
+under this Agreement until those Licences expire at which point this
+Agreement shall terminate. If Customer terminates this Agreement then no
+refund of any Licence Fees shall be payable.
+
+13.4    Upon termination or expiry of this Agreement for any reason:
+
+
+
+        (a)     All rights granted to Customer under this Agreement
+shall cease;
+
+        (b)     Customer must immediately cease all activities authorised
+by this Agreement; and
+
+        (c)     Upon termination of this Agreement Customer shall
+immediately and permanently delete or destroy all copies of the Software
+from any and all computer systems or storage devices controlled by
+Customer or in Customer's possession or custody and certify to Supplier
+that Customer has done so.
+
+
+=============================================================================
+14. Events outside Parties' control
+=============================================================================
+
+14.1    The Parties shall use reasonable endeavours to meet their
+obligations under this Agreement despite any Events Outside the Parties'
+Control. However, neither Party shall be liable or responsible for any
+failure to perform, or delay in performance of, any of its obligations
+under this Agreement that is caused by an Event Outside that Party's
+Control.
+
+14.2    If an Event Outside a Party's Control takes place that affects
+the performance of that Party's obligations under this Agreement the
+Agreement will be suspended and the time for performance of those
+obligations shall be extended until the Event Outside that Party's
+Control ceases, but in any event no later than the expiry of the Licence
+Period in which the Event Outside the Party's Control commences.
+
+
+=============================================================================
+15. Other important terms
+=============================================================================
+
+15.1    Supplier may transfer its rights and obligations under this
+Agreement to another organisation, but this shall not affect Customer's
+rights or Supplier's obligations under this Agreement.
+
+15.2    Customer may transfer its rights or obligations, or otherwise
+deal with its rights, under this Agreement with Supplier's prior written
+consent that may not be unreasonably withheld or delayed. Upon a change
+of Control of Customer Supplier may terminate this Agreement without
+notice unless the Supplier has agreed otherwise in writing, such
+agreement not to be unreasonably withheld or delayed.
+
+15.3    This Agreement constitutes the entire agreement between the
+Parties and supersedes and extinguishes all previous agreements,
+promises, assurances, warranties, representations and understandings
+between the Parties, whether written or oral, relating to its subject
+matter. Customer agrees that it shall have no remedies in respect of any
+statement, misstatement, representation, misrepresentation, assurance or
+warranty (whether made innocently or negligently) that is not set out in
+this Agreement. Customer agrees that it shall have no claim for innocent,
+negligent misrepresentation or negligent misstatement based on any
+statement made to Customer prior to entering into this Agreement or
+included expressly or impliedly in this Agreement.
+
+15.4    This Agreement shall apply to any use Customer makes of the
+Software at any time. No terms in any documents or other correspondence
+that Customer may send to the Supplier, including any terms in any
+Quotation Request, Renewal Request, Purchase Order or terms of business,
+shall apply.
+
+15.5    Failure by either Party to demand the enforcement of any
+obligations imposed on the other Party by this Agreement, or any delay
+in doing so, shall not constitute a waiver of that obligation. A waiver
+of any default by Supplier will only be effective if it is in writing
+executed by one of Supplier's directors and will not constitute a waiver
+of any subsequent default by Customer.
+
+15.6    Each provision of this Agreement operates separately. If any
+court or competent authority decides that any one of the provisions is
+unlawful, invalid or unenforceable, but would be lawful, valid or
+enforceable if some part of it were deleted or modified, the provision
+in question shall apply with such deletion or modification as may be
+necessary to make it lawful, valid or enforceable, and the remaining
+conditions will remain in full force and effect.
+
+15.7    Supplier may modify the terms of this Agreement, at Supplier's
+sole discretion, providing that these modifications will not change the
+duration of this Agreement nor the principal characteristics of what is
+provided to Customer. Supplier shall notify Customer before Supplier
+makes any changes to these terms, in one of the following ways:
+
+
+
+        (a)     If Customer downloads or install a new version of the
+Software, the terms included with the Software will replace these
+terms.
+
+        (b)     The license terms included within the Software are
+available on Supplier's website worldprogramming.com.
+
+        (c)     Supplier may email Customer.
+
+
+
+Customer's continued installation and use of the Software after Supplier
+provides notice of any amended terms constitutes Customer's acceptance
+of the amended terms. In the event that Customer does not accept the
+changes to these terms, Customer shall immediately cease to use the
+Software provided to Customer under this Agreement, notify Supplier
+accordingly, and this Agreement shall terminate immediately. Customer
+shall be entitled to a refund of any unused portion of the Fees paid or
+payable by Customer in respect of the Licence Period during which the
+termination occurs.
+
+15.8    This Agreement does not give rise to any rights under the
+Contracts (Rights of Third Parties) Act 1999 to enforce any term of this
+Agreement.
+
+15.9    Supplier may, at its option, refer to and use Customer's name
+and/or Customer's trademark or logo in any customer list or logo sheet
+included in Supplier's marketing materials.
+
+15.10   If Customer provides Supplier with any feedback on the Software
+or Supplier's products or services, Customer grants to Supplier and its
+Affiliates and licensors the right to use such feedback to develop
+services and products and to create and own derivative works based on
+such feedback. Without limiting the foregoing, Supplier, its Affiliates
+and its licensors may use information received from Customer to test,
+develop, improve and enhance its products and services.
+
+15.11   Any notice given by either Party under or in connection with
+this Agreement shall be sent by email to the other Party's commercial or
+legal contact previously notified to that Party. Any notice shall be
+deemed to have been received at the time it is sent. This section does
+not apply to the service of any proceedings or other documents in any
+legal action.
+
+15.12   The Parties agree that legal proceedings and associated documents
+shall be validly served on the other Party if they are delivered by hand
+to the registered office of the other Party.
+
+15.13   If Customer is invoiced for the Licence Fees anywhere other than
+in the United States, this Agreement, its subject matter and its
+formation (and any non-contractual disputes or claims) are governed by
+English law and the courts of England and Wales shall have exclusive
+jurisdiction over all disputes, arguments and/or differences of opinion
+between the Parties arising out of or in connection with this Agreement.
+
+15.14   If Customer is invoiced for the Licence Fees in the United
+States, this Agreement, its subject matter and its formation (and any
+noncontractual disputes or claims) are governed by the laws of New York
+and all disputes, arguments and/or differences of opinion between the
+Parties arising out of or in connection with this Agreement shall be
+submitted to mandatory, final and binding arbitration before a single
+arbitrator in New York in accordance with the Commercial Arbitration
+rules of the American Arbitration Association. The language of the
+arbitration shall be English.
+
+15.15   Nothing in this Agreement shall limit or exclude Supplier's
+right to enforce Supplier's rights in relation to Supplier's intellectual
+property that subsists in any territory where the Software is used
+(whether or not such use is authorised).
+
+15.16   If this Agreement is translated into any other language, the
+translation will be for reference purposes only, and only the English
+version will be legally binding. If there is discrepancy between the
+English text and the translated text, the English text will govern.
+
+
+Technical Support Schedule
+
+Supplier provides technical support for Software defects that Customer
+reports.
+
+The response times shown below indicate the target time within which
+Supplier aims to respond to Customer after Customer reports an issue.
+Supplier does not guarantee either the response time or the resolution
+time. Customer shall cooperate with Supplier in order to resolve issues
+in a timely manner. Technical Support is provided on the basis of the
+Standard Response times below unless Premium Support has been purchased.
+
+SEVERITY 1: SITE DOWN
+
+
+
+ - Production system is down
+             - Standard Response: 1 business day
+             - Premium Response: 2 hours 24x7
+
+SEVERITY 2: CRITICAL
+
+
+
+ - Disruption to business process
+             - Standard Response: 1 business day
+             - Premium Response: 8 hours 24x7
+
+SEVERITY 3: NORMAL (DEFAULT)
+
+
+
+ - Ability to use Software is affected
+             - Standard Response: 2 business days
+             - Premium Response: 1 business day
+
+SEVERITY 4: LOW
+
+
+
+ - Feature requests and minor issues
+             - Standard Response: 5 business days
+             - Premium Response: 2 business days
+
+Business hours are between 0900 and 1700 UK time on UK business days
+excluding public holidays.
+
+Technical Support is accessed via online systems.
+
+Premium Technical Support is an additional purchase option and includes
+access to the online system plus the option to use telephone for issues
+classified as Severity 1. A dedicated telephone number is available to
+Customer if Customer has purchased Premium Technical Support. All
+requests for assistance must first be raised electronically, including
+full details of the issue, before using the telephone.
+
+When using the telephone for Premium Technical Support Customer shall
+remain available to communicate with the same level of response time
+associated with the issue being handled until it is mutually agreed that
+the response time for the individual issue can be changed.
+

@@ -1,0 +1,16 @@
+DATA _NULL_;
+	FILE _webout TERMSTR=CRLF;
+	PUT "Content-type: application/json";
+	IF SYMEXIST('_SESSIONID') THEN DO;
+		PUT;
+		PUT "{";
+		PUT '  "_service": "' "&_SERVICE" '",';
+		PUT '  "_server": "' "&_SERVER" '",';
+		PUT '  "_port": "' "&_PORT" '",';
+		PUT '  "_sessionid": "' "&_SESSIONID" '"';
+		PUT "}";
+	END;
+	ELSE DO;
+		PUT "status: 401";
+	END;
+RUN;

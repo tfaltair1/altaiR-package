@@ -1,0 +1,62 @@
+/**
+ * FONTS
+ */
+body {
+	font-size: 12px;
+}
+/**
+ * COLOURS
+ */
+body {
+	background-color: #F7F7F7;
+	color: #1B9DAF;
+}
+
+.important {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+
+/**
+ * SIZES and POSITIONS
+ */
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/** Form **/
+.form1 {
+}
+.form1 > fieldset > p > label {
+	width: 100px;
+	display: inline-block;
+}
+.form1 > fieldset > p > span > span > span.ui-icon-alert {
+	float: left;
+}
+.form1 > fieldset {
+	border: 0;
+}
+.form1 > fieldset > p.buttons-holder {
+	padding-left: 120px;
+}
+.form1 textarea {
+	width: 100%;
+	height: 5em;
+}
+
+.ui-widget-header > h3 {
+	margin-left: 10px;
+	display: inline-block;
+}

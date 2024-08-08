@@ -1,0 +1,14 @@
+<tr data-itemid="<%= id %>">
+	<td>
+		<%= name %>
+	</td>
+	<td>
+		<%= category %>
+	</td>
+	<td>
+		<%= price %>
+	</td>
+	<td>
+		<%= sales %>
+	</td>
+</tr>

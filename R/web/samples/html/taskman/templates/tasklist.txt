@@ -1,0 +1,22 @@
+<table class="jtable" id="tasklisttable">
+	<colgroup>
+		<col class="col-type" />
+		<col class="col-description" />
+		<col class="col-priority" />
+		<col class="col-actions" />
+	</colgroup>
+	<thead>
+		<th>
+			<a href="#" data-colname="type" class="taskman-colheader ui-priority-secondary">Type</a>
+		</th>
+		<th>
+			<a href="#" data-colname="description" class="taskman-colheader ui-priority-secondary">Description</a>
+		</th>
+		<th>
+			<a href="#" data-colname="priority" class="taskman-colheader ui-priority-secondary">Priority</a>
+		</th>
+		<th>&nbsp;</th>
+	</thead>
+	<tbody>
+	</tbody>
+</table>

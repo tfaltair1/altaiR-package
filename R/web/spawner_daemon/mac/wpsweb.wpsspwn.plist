@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>wpsweb.wpsspwn</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/wps/wpsspwn</string>
+	<string>-port=7777</string>
+        <string>-nodetach</string>
+        <string>-log</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Library/Logs/wpsspwn.log</string>
+    <key>StandardErrPath</key>
+    <string>/Library/Logs/wpsspwn.log</string>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>

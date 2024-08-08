@@ -1,0 +1,153 @@
+/**
+ * Extra CSS for main.html
+ */
+#outer {
+	min-height: 100%;
+}
+#inner {
+	display: -webkit-box;
+	-webkit-box-align: stretch;
+	-webkit-box-orient: vertical;
+	min-height: 100%;
+
+	display: -moz-box;
+	-moz-box-align: stretch;
+	-moz-box-orient: vertical;
+
+	display: box;
+	box-align: stretch;
+	box-orient: vertical;
+
+	width: 100%;
+}
+#tabs {
+	-webkit-box-flex: 1;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+
+	-moz-box-flex: 1;
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+
+	box-flex: 1;
+	display: box;
+	box-orient: horizontal;
+}
+#btn-create-new-task {
+	margin-left: 10px;
+}
+.jtable {
+	width: 100%;
+	border-collapse: collapse;
+}
+.jtable th {
+	padding: 5px;
+}
+.jtable td {
+	padding: 5px;
+}
+.jtable .col-estimated {
+	width: 180px;
+}
+.jtable .col-remaining {
+	width: 180px;
+}
+#account-logout-holder {
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#btn-logout {
+	display: block;
+}
+#instructions .ui-icon-close {
+	float: right;
+}
+#instructions .ui-icon-info {
+	float: left;
+}
+#errormessages-holder {
+	z-index: 9999;
+	position: absolute;
+	top: -1px;
+	width: 100%;
+}
+#errormessages {
+	margin: auto;
+	width: 90%;
+}
+#errormessages > div {
+	padding: 0.3em;
+}
+#errormessages > div > .ui-icon {
+	display: inline-block;
+}
+.jtable th .ui-icon {
+	display: inline-block;
+	float: left;
+}
+.jtable th {
+	padding-left: 16px; /** the width of sorting icons **/
+	cursor: pointer;
+}
+.jtable th.jtable-no-sort {
+	padding-left: 0;
+	cursor: default;
+}
+.jtable th.jtable-sorted-header {
+	padding-left: 0;
+}
+.warning.noresults {
+	text-align: center;
+}
+#footer {
+	text-align: center;
+}
+.jtable + div {
+	line-height: 2em;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+  padding: 0;
+  width: 15em;
+  background-color: silver;
+  background-image: none;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+  clear: left; width: 100%;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0 -1px .2em 0;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+  display:block;
+  width: 13.1em;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-right: .1em;
+  border-right-width: 1px;
+  border-right-width: 1px;
+}
+.ui-tabs-vertical > div {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+.first-section-title {
+  margin-top: 0px;
+}
+
+/**
+ * Stops page scrolling as graph is re-drawn from over AJAX call
+ */
+#graph-holder {
+	height: 800px;
+	min-height: 800px;
+}
+#graph-img {
+	height: 100%;
+	width: 100%;
+}

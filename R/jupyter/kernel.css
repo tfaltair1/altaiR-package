@@ -1,0 +1,28 @@
+.CodeMirror-hint {
+  max-width: 40em;
+  min-width: 9em;
+}
+
+.cm-s-ipython {color: RGB(0, 0, 0);}
+.cm-s-ipython .cm-card {background-color: RGB(255, 255, 192)}
+.cm-s-ipython .cm-comment {color: RGB(0, 130, 50);}
+.cm-s-ipython .cm-curlybrace {}
+.cm-s-ipython .cm-float_literal {color: RGB(128, 0, 128);}
+.cm-s-ipython .cm-format {color: RGB(0, 128, 128);}
+.cm-s-ipython .cm-_function {color: RGB(151, 28, 12); font-style: italic;}
+.cm-s-ipython .cm-hex_literal {color: RGB(128, 0, 128);}
+.cm-s-ipython .cm-identifier {}
+.cm-s-ipython .cm-int_literal {color:RGB(128, 0, 128);}
+.cm-s-ipython span.cm-keyword {color: RGB(0, 0, 230); font-weight: normal}
+.cm-s-ipython .cm-macro_invocation {color: RGB(153, 153, 0); font-style: italic;}
+.cm-s-ipython .cm-macro_keyword {color: RGB(153, 153, 0);}
+.cm-s-ipython .cm-macro_variable {color: RGB(0, 0, 128);}
+.cm-s-ipython .cm-major_keyword {color: RGB(0, 0, 230); font-weight: bold;}
+.cm-s-ipython .cm-parenthesis {}
+.cm-s-ipython .cm-punctuation {}
+.cm-s-ipython .cm-semicolon {}
+.cm-s-ipython .cm-squarebracket {}
+.cm-s-ipython .cm-string_literal {color: RGB(128, 0, 128);}
+.cm-s-ipython .cm-string_literal_fragment {color: RGB(128, 0, 128);}
+.cm-s-ipython .cm-unknown {color: RGB(255, 0, 0);}
+

@@ -1,0 +1,40 @@
+<table class="jtable" id="time-remaining-table">
+	<colgroup>
+		<col class="col-name" />
+		<col class="col-category" />
+		<col class="col-price" />
+		<col class="col-sales" />
+	</colgroup>
+	<thead>
+		<th>
+			<a href="#" data-colname="name" class="colheader ui-priority-secondary">Name</a>
+		</th>
+		<th>
+			<a href="#" data-colname="category" class="colheader ui-priority-secondary">Category</a>
+		</th>
+		<th>
+			<a href="#" data-colname="price" class="colheader ui-priority-secondary">Price</a>
+		</th>
+		<th>
+			<a href="#" data-colname="sales" class="colheader ui-priority-secondary">Sales</a>
+		</th>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+<div>
+  Page Size:
+  <select name='pageSize'>
+     <option>10</option>
+     <option>20</option>
+     <option>50</option>
+     <option>100</option>
+  </select>
+  Page Number:
+  <select name='pageNumber'>
+	  <% for (var i = 1; i <= numberOfPages; i++) { %>
+	     <option><%= i %></option>
+	<% } %>
+  </select>
+  Showing <%= showingMin %>-<%= showingMax %> of <%= numberOfItems %>
+</div>

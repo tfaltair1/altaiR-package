@@ -1,0 +1,49 @@
+#!/bin/sh
+set -e
+testAndSource() {
+	if [ -f "$1" ]; then
+		if [ -r "$1" ]; then
+			. "$1"
+			return 0
+		else
+			echo "@product-name@ environment file '$1' exists but cannot be read." >&2
+			return 1
+		fi
+	fi
+	return 2
+}
+
+# Resolve the directory we ran the script from to set WPSHOME
+RELEXE=${BASH_SOURCE[0]}
+while [ -h "$RELEXE" ]; do
+	# Ensure we follow soft links if they exist
+	PARENTDIR=$(cd -P "$( dirname "$RELEXE" )" >/dev/null 2>&1 && pwd)
+	RELEXE=$(readlink "$RELEXE")
+	[[ $RELEXE != /* ]] && RELEXE=$PARENTDIR/$RELEXE 
+done
+WPSBDIR=$(cd -P "$( dirname "$RELEXE" )/.." >/dev/null 2>&1 && pwd)
+
+# Now set WPSHOME and WPSETC
+export WPSHOME="$WPSBDIR"
+export WPSETC="/etc/@wps-full-id@"
+
+testAndSource "$WPSHOME/altairslcenv-2023.sh" || true
+testAndSource "$WPSHOME/altairslcenv.sh" || true
+if [ -d "$WPSETC" ]; then
+	testAndSource "$WPSETC/altairslcenv-2023.sh" || true
+	testAndSource "$WPSETC/altairslcenv.sh" || true
+else
+	# Try looking for an /etc/worldprogramming-based wpsenv.sh
+	# No point looking for the version number form because it can't
+	# match if it was created for any old installations.
+	testAndSource "/opt/worldprogramming/wpsenv.sh" || true
+fi
+testAndSource "$HOME/altairslcenv-2023.sh" || true
+if ! testAndSource "$HOME/altairslcenv.sh"; then
+	testAndSource "$HOME/wpsenv.sh" || true
+fi
+
+export WPS_OLD_DYLD_FALLBACK_LIBRARY_PATH="$DYLD_FALLBACK_LIBRARY_PATH"
+export DYLD_FALLBACK_LIBRARY_PATH=${WPSHOME}/Frameworks:/usr/lib:"$WPS_OLD_DYLD_FALLBACK_LIBRARY_PATH"
+
+exec "${WPSHOME}/MacOS/wpslink_httpx" "$@"

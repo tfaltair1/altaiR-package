@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link href="style/smoothness/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css">
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+		<link href="style/multiselect.css" rel="stylesheet" type="text/css">
+		<link href="style/main.css" rel="stylesheet" type="text/css">
+		<title>Basic CRUD App</title>
+	</head>
+	<body>
+		<div id="errormessages-holder" class="ui-widget ui-helper-hidden">
+			<div id="errormessages" class="ui-corner-bottom ui-state-error"></div>
+		</div>
+		<div id="inner" class="ui-widget ui-corner-all">
+			<div class="ui-widget-header ui-corner-top">
+				<h3>Create Read Update Delete application</h3>
+			</div>
+			<div id="tabs-2" class="ui-widget-content" style="padding: 5px;">
+				<p>
+					This demonstration shows how WPS Web can be used in a modern HTML5 &amp; Javascript web application.
+					The application comprises of a 'thick client' written in Javascript and executed by a user's web
+					browser. This client renders the interface and makes a series of AJAX calls to the WPS Web Broker for
+					language of SAS programs to be executed. These programs produce JSON text or GIF images which are then
+					used to update the interface.  The demonstration also shows how WPS Web can be used to create a &quot;
+					Create Read Update Delete&quot; style application, which is popular pattern for modern web applications.
+				</p>
+				<a href="#" id="btn-insert-item">Insert item</a>
+				<a href="#" id="btn-filter">Filter</a>
+				<h3>Table view</h3>
+				<div id="items-table"></div>
+				<a href="" id="items-download">Download</a>
+				<h3>Graph view</h3>
+				<div class="ui-widget">
+					<div class="ui-widget-content ui-corner-all" id="graph-holder">
+						<img id="graph-img" />
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				&copy; World Programming Ltd 2017
+			</div>
+		</div>
+		<!-- Dialogs -->
+		<div id="preparing-file-modal" title="Preparing report..." style="display: none;">
+			We are preparing your report, please wait...
+			<div class="ui-progressbar-value ui-corner-left ui-corner-right" style="width: 100%; height:22px; margin-top: 20px;"></div>
+		</div>
+		<div id="insert-item" title="Insert item" style="display: none;">
+			<form>
+				<p>
+				    <label>Name:</label>
+					<input type="text" name="name" />
+				</p>
+				<p>
+				    <label>Category:</label>
+					<input type="text" name="category" />
+				</p>
+				<p>
+				    <label>Price:</label>
+					<input type="number" name="price" step="any"/>
+				</p>
+				<p>
+				    <label>Sales:</label>
+					<input type="number" name="sales" />
+				</p>
+			</form>
+		</div>
+		<div id="filter-dialog" title="Filter" style="display: none;">
+			<p>
+				Select which categories of items to view:
+			</p>
+			<div>
+				<form id="items-filter" class="filter-form">
+					<Label>Category:</label>
+					<div class="items-transfer-select" data-name="items"></div>
+				</form>
+			</div>
+		</div>
+		<script src="js/jquery-min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.js" type="text/javascript"></script>
+		<script src="js/json2.js" type="text/javascript"></script>
+		<script src="js/underscore-min.js" type="text/javascript"></script>
+		<script src="js/backbone-min.js" type="text/javascript"></script>
+		<script src="js/models.js" type="text/javascript"></script>
+		<script src="js/template-manager.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/datatable.js" type="text/javascript"></script>
+		<script src="js/graph.js" type="text/javascript"></script>
+		<script src="js/multiselect.js" type="text/javascript"></script>
+		<script src="js/jquery.filedownload.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>

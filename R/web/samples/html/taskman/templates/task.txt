@@ -1,0 +1,14 @@
+<tr data-taskid="<%= id %>">
+	<td>
+		<%= type %>
+	</td>
+	<td>
+		<%= description %>
+	</td>
+	<td>
+		<%= priority %>
+	</td>
+	<td>
+		<a href="#" class="jsbutton" data-button-event="delete-task">Delete</a>
+	</td>
+</tr>

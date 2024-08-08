@@ -1,0 +1,97 @@
+#! /bin/bash
+#
+# wpsspwn Start/Stop the WPS Web Spawner Daemon
+#
+# chkconfig: 345 90 60
+# description: wpsspwn is part of the WPS Web package and allows for the \
+#              launching of application servers away from the load manager.
+
+### BEGIN INIT INFO
+# Provides: wpsspwn 
+# Required-Start: $local_fs $syslog
+# Required-Stop: $local_fs $syslog
+# Default-Start:  3 4 5
+# Default-Stop: 0 1 2 6
+# Short-Description: run wpsspwn daemon
+# Description: daemon for spawning new application servers as part of WPS Web
+#
+### END INIT INFO
+
+# This script assumes that the wpsspwn executable is on the binary search path ($PATH). This can be set to an absolute
+# location by editing the prog variable below.
+# Also the port number 7777 is used. This can be changed by editing the port variable below.
+. /etc/init.d/functions
+prog="wpsspwn"
+port="7777"
+
+# Standard lock and pidfile locations
+pidfile="/var/run/wpsspwn.pid"
+lockfile="/var/lock/subsys/wpsspwn"
+logfile="/var/log/wpsspwn.log"
+
+start() {
+	echo -n $"Starting $prog: "	
+	if [ -e $lockfile ]; then
+	    if [ -e $pidfile ] && [ -e /proc/`cat $pidfile` ]; then
+		echo -n $"cannot start wpsspwn: already running.";
+		failure $"cannot start wpsspwn: already running.";
+		echo
+		return 1
+	    fi
+	fi
+	$prog -pidfile=$pidfile -port=$port -log -outfile=$logfile -errfile=$logfile
+	RETVAL=$?
+	echo
+	[ $RETVAL -eq 0 ] && touch $lockfile && success
+	return $RETVAL
+}
+
+stop() {
+	echo -n $"Stopping $prog: "
+	if [ ! -e $lockfile ]; then
+	    echo -n $"cannot stop wpsspwn: not running."
+	    failure $"cannot stop wpsspwn: not running."
+	    echo
+	    return 1;
+	fi
+	if [ -e $pidfile ]; then
+		$prog -pidfile=$pidfile -stop
+		RETVAL=$?
+		echo
+		[ $RETVAL -eq 0 ] && rm -f $lockfile && rm -f $pidfile && success
+		return $RETVAL
+	else
+		echo -n "cannot find pidfile"
+		return 1;
+	fi
+}	
+
+rhstatus() {
+	status wpsspwn
+}	
+
+restart() {
+  	stop
+	start
+}	
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart)
+  	restart
+	;;
+  status)
+  	rhstatus
+	;;
+  condrestart)
+  	[ -f $lockfile ] && restart || :
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|status|restart|condrestart}"
+	exit 1
+esac

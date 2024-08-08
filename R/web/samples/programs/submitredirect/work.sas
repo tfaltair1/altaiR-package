@@ -1,0 +1,78 @@
+%macro SET_DEFAULT_VALUE(name, value);
+	%if 0 = %symexist(&name) %THEN %DO;
+		%GLOBAL &name;
+		DATA _NULL_;
+			CALL SYMPUT("&name", &value);
+		RUN;
+	%END;
+%mend;
+
+%SET_DEFAULT_VALUE(FNAME, )
+%SET_DEFAULT_VALUE(SNAME, )
+
+******************************************************************************;
+* Validates user inputs to ensure they're not empty strings.                  ;
+* Error messages are stored in a dataset again the session.                   ;
+******************************************************************************;
+%macro validate;
+	DATA save.validation_errors;
+		LENGTH error $ 200;
+		IF "&FNAME" = "" THEN DO;
+			error = "Firstname cannot be empty";
+			OUTPUT;
+		END;
+		IF "&SNAME" = "" THEN DO;
+			error = "Surname cannot be empty";
+			OUTPUT;
+		END;
+	RUN;
+	DATA save.inputs;
+		LENGTH param $ 100;
+		LENGTH value $ 1024;
+		parm = "FNAME";
+		value = "&FNAME";
+		output;
+		parm = "SNAME";
+		value = "&SNAME";
+		output;
+	RUN;
+	PROC SQL;
+		SELECT COUNT(*) INTO:ERRORS FROM save.validation_errors;
+	QUIT;
+	RUN;
+	%IF &ERRORS > 0 %THEN %DO;
+		DATA _NULL_;
+			FILE _WEBOUT;
+			PUT "<h2>Validation error.</h2>";
+			PUT "<script type=""text/javascript"">";
+			PUT "document.onreadystatechange = function() {";
+			PUT " setTimeout(function() {";
+			PUT "   window.location.href = ";
+			PUT "		""&_THISSESSION" '&_program=sr.form.sas"';
+			PUT " }, 500);";
+			PUT "}";
+			PUT "</script>";
+		RUN;
+		ENDSAS;
+	%END;
+%mend;
+%validate
+
+******************************************************************************;
+* Inputs were valid, not generate a message that will displayed to the user.  ;
+******************************************************************************;
+DATA save.messages;
+	LENGTH msg $ 1000;
+	msg = "Hello &FNAME &SNAME!";
+RUN;
+DATA _NULL_;
+	FILE _WEBOUT;
+	PUT "<h2>Generated.</h2>";
+	PUT "<script type=""text/javascript"">";
+	PUT "document.onreadystatechange = function() {";
+	PUT " setTimeout(function() {";
+	PUT "   window.location.href = ""&_THISSESSION" '&_program=sr.result.sas"';
+	PUT " }, 500);";
+	PUT "}";
+	PUT "</script>";
+RUN;

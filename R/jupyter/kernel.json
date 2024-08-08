@@ -1,0 +1,5 @@
+{
+	"argv": ["/opt/altair/slc/2023/bin/wpsjkrnl", "{connection_file}"],
+	"display_name": "Altair SLC 2023.4",
+	"language": "wps"
+}

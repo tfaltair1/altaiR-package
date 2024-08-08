@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<wpsbroker>
+	<defaultService>test1</defaultService>
+	<poolService>
+		<name>test1</name>
+		<loadManager>
+			<host>localhost</host>
+			<port>5555</port>
+		</loadManager>
+		<server>
+			<host>localhost</host>
+			<port>5001</port>
+		</server>
+		<launchCommand>wps.exe</launchCommand>
+	</poolService>
+</wpsbroker>

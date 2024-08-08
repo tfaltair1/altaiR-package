@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plist version="1.0">
+
+<dict>
+        <key>CFBundleIdentifier</key>
+                <string>com.altair.slc</string>
+        <key>CFBundleDisplayName</key>
+                <string>Altair SLC 2023</string>
+	<key>NSHumanReadableCopyright</key>
+                <string>Copyright 2002-2023 World Programming, an Altair Company</string>
+
+        <key>CFBundlePackageType</key>
+                <string>APPL</string>
+        <key>CFBundleExecutable</key>
+                <string>wps</string>
+
+        <key>CFBundleIconFile</key>
+                <string>wps.icns</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+                <string>6.0</string>
+        <key>CFBundleShortVersionString</key>
+                <string>2023.4</string>
+        <key>CFBundleSignature</key>
+                <string>????</string>
+        <key>CFBundleVersion</key>
+                <!-- This does not follow the guidelines, but nothing seems to object ... -->
+                <string>5.23.4.0.278</string>
+
+        <key>NSHighResolutionCapable</key>
+                <true/>
+
+        <key>CFBundleDevelopmentRegion</key>
+                <string>English</string>
+        <key>CFBundleLocalizations</key>
+                <array>
+                        <string>en</string>
+                        <string>es</string>
+                        <string>fr</string>
+                        <string>it</string>
+                        <string>ja</string>
+                </array>
+
+</dict>
+
+</plist>
+

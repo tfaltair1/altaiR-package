@@ -1,0 +1,8 @@
+<div>
+	<% if ("info" == severity) { %>
+		<span class="ui-icon ui-icon-info"></span>
+	<% } else { %>
+		<span class="ui-icon ui-icon-alert"></span>
+	<% } %>
+	<%= msg %>
+</div>

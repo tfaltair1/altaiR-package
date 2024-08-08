@@ -1,0 +1,96 @@
+#! /bin/bash
+#
+# loadmgr Start/Stop the WPS Web Load Manager daemon
+#
+# chkconfig: 345 90 60
+# description: loadmgr is part of the WPS Web package and provides load balancing \
+#              for request handling.
+
+### BEGIN INIT INFO
+# Provides: loadmgr 
+# Required-Start: $local_fs $syslog
+# Required-Stop: $local_fs $syslog
+# Default-Start:  3 4 5
+# Default-Stop: 0 1 2 6
+# Short-Description: run loadmgr daemon
+# Description: provides load balancing of servers and requests for the WPS Web package
+#
+### END INIT INFO
+
+# This script assumes that the loadmgr executable is on the binary search path ($PATH). This can be set to an absolute
+# location by editing the prog variable below.
+# Also the port number 5555 is used. This can be changed by editing the port variable below.
+. /etc/init.d/functions
+prog="loadmgr"
+port=5555
+
+# Standard lock and pidfile locations
+pidfile="/var/run/loadmgr.pid"
+lockfile="/var/lock/subsys/loadmgr"
+logfile="/var/log/loadmgr.log"
+
+start() {
+	if [ -e $lockfile ]; then
+	    if [ -e $pidfile ] && [ -e /proc/`cat $pidfile` ]; then
+		echo -n $"cannot start loadmgr: already running.";
+		failure $"cannot start loadmgr: already running.";
+		echo
+		return 1
+	    fi
+	fi
+	$prog -pidfile=$pidfile -port=$port -log -outfile=$logfile -errfile=$logfile
+	RETVAL=$?
+	[ $RETVAL -eq 0 ] && touch $lockfile && echo -n "Starting loadmgr..." && success $"Started"
+	echo
+	return $RETVAL
+}
+
+stop() {
+	if [ ! -e $lockfile ]; then
+	    echo -n $"cannot stop loadmgr: not running."
+	    failure $"cannot stop loadmgr: not running."
+	    echo
+	    return 1;
+	fi
+	if [ -e $pidfile ]; then
+		$prog -pidfile=$pidfile -stop
+		RETVAL=$?
+		[ $RETVAL -eq 0 ] && rm -f $lockfile && rm -f $pidfile && \
+                      echo -n "Stopping loadmgr..." && success $"Started ok"
+		echo
+		return $RETVAL
+	else
+		echo -n "cannot find pidfile"
+		return 1;
+	fi
+}	
+
+rhstatus() {
+	status loadmgr
+}	
+
+restart() {
+  	stop
+	start
+}	
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart)
+  	restart
+	;;
+  status)
+  	rhstatus
+	;;
+  condrestart)
+  	[ -f $lockfile ] && restart || :
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|status|restart|condrestart}"
+	exit 1
+esac

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<wpsbroker>
+	<defaultService>example</defaultService>
+	<socketService>
+		<name>example</name>
+		<server>
+			<host>localhost</host>
+			<port>5001</port>
+		</server>
+	</socketService>
+</wpsbroker>

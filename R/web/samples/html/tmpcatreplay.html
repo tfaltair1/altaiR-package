@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>TMPCAT &amp; Replay demonstration</title>
+	<style type="text/css">
+		body {
+			width: 1000px;
+		}
+	</style>
+</head>
+<body>
+	<h1>TMPCAT &amp; Replay demonstration</h1>
+	<p>
+		The following application writes a HTML document which includes Javascript code to load an image using the replay
+	functionality of WPS Web after a small delay. The WPS Web Application Server then 'disconnects', allowing the browser to
+	display the HTML document, then writes the image before the browser requests for it to be displayed.
+	</p>
+	<form action='/wpscgi/broker.exe' method='post'>
+		<input type='hidden' name='_service' value='default'/>
+		<input type='hidden' name='_program' value='tr.index.sas'/>
+		<input type='submit' value='Go'/>
+		<input type='checkbox' name='_debug' value='131'>Show the execution log</input>
+	</form>
+</body>
+</html>

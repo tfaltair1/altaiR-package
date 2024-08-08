@@ -1,0 +1,66 @@
+/**
+ * Extra CSS for main.html
+ */
+#outer {
+	padding: 10px;
+}
+#btn-create-new-task {
+	margin-left: 10px;
+}
+.jtable {
+	width: 100%;
+	border-collapse: collapse;
+}
+.jtable th {
+	padding: 5px;
+}
+.jtable td {
+	padding: 5px;
+}
+.jtable .col-type {
+	width: 120px;
+}
+.jtable .col-priority {
+	width: 80px;
+}
+.jtable .col-actions {
+	width: 80px;
+}
+#account-logout-holder {
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#btn-logout {
+	display: block;
+}
+#instructions .ui-icon-close {
+	float: right;
+}
+#instructions .ui-icon-info {
+	float: left;
+}
+#errormessages-holder {
+	z-index: 9999;
+	position: absolute;
+	top: -1px;
+	width: 100%;
+}
+#errormessages {
+	margin: auto;
+	width: 90%;
+}
+#errormessages > div {
+	padding: 0.3em;
+}
+#errormessages > div > .ui-icon {
+	display: inline-block;
+}
+#tasklisttable th .ui-icon {
+	display: inline-block;
+	float: left;
+}
+.warning.noresults {
+	text-align: center;
+}

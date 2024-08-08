@@ -1,0 +1,5 @@
+<select multiple="multiple" name="<%= name %>" size="10">
+	<% _.each(items, function(dev) { %>
+		<option><%= dev.attributes.category %></option>
+	<% }); %>
+</select>

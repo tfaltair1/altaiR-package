@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>'Hello World' Application</title>
+</head>
+<body>
+<h1>'Hello World' Application</h1>
+<form action='/wpscgi/broker.exe' method='post'>
+<input type='hidden' name='_service' value='default'/>
+<input type='hidden' name='_program' value='sample.hello.sas'/>
+<input type='submit' value='Press to receive a greeting'/>
+<input type='checkbox' name='_debug' value='131'>Show the execution log</input>
+</form>
+</body>
+</html>

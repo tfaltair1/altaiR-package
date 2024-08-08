@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+		<xs:documentation xml:lang="en">WPS Java Broker configuration schema.
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="wpsbroker">
+        <xs:annotation>
+        	<xs:documentation>Root element.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element name="loadManager" type="loadmgrdetails" maxOccurs="1" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">
+							Specifies the details of the load manager which the broker can use for load balancing requests across
+							multiple application servers in services.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="defaultService" type="xs:string" maxOccurs="1" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">
+							Specifies the name of the default service which will process a request if that request does
+							not specify a service name.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="socketService" type="socketservicedetails" maxOccurs="unbounded" minOccurs="0"/>
+				<xs:element name="poolService" type="poolservicedetails" maxOccurs="unbounded" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="serverdetails">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">
+				Specifies the connection details of a server.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="host" type="xs:string" maxOccurs="1" minOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">
+						The host name or IP address where of the socket which the server is listening on.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="weight" type="xs:float" maxOccurs="1"
+				minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">
+						Servers with a high weight be will given
+						preference when choosing which one will handle
+						arequest. Note that a server with a weight of 0
+						will not be used unless all others are
+						unavailable.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:choice>
+				<xs:element name="port" type="xs:int" maxOccurs="1"
+					minOccurs="1">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">
+							The port number of the socket which the
+							server is listening on.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="portRange" maxOccurs="1" minOccurs="1"
+					type="portrange" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="loadmgrdetails">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">
+				Specifies the connection details of a Load Manager.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="host" type="xs:string" maxOccurs="1" minOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">
+						The host name or IP address where of the socket which the server is listening on.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="port" type="xs:int" maxOccurs="1"
+				minOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">
+						The port number of the socket which the
+						server is listening on.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="socketservicedetails">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Specifies the details of servers in a socket service.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="host" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">
+						The host name or IP address where of the socket
+						which the server is listening on.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="loadManager" type="loadmgrdetails" maxOccurs="1" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Overrides the global 'load manager' for this service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="server" type="serverdetails" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>
+						Application Server details.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="poolservicedetails">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Specifies the details of servers in a pool service.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="socketservicedetails">
+				<xs:sequence>
+					<xs:element name="launchCommand" type="xs:string"
+						maxOccurs="1" minOccurs="1">
+						<xs:annotation>
+							<xs:documentation xml:lang="en">
+								The command used to create new
+								application servers on demand. Note this
+								value must end with "-SYSPARM" else the
+								application server may not start
+								properly.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="idleTimeout" type="xs:int"
+						maxOccurs="1" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation xml:lang="en">
+								The time that a sever in a pool service
+								will stay alive for while it has no
+								requests to process.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="spawner" type="spawnerdetails"
+					  minOccurs="0" maxOccurs="1">
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="portrange">
+		<xs:all maxOccurs="1" minOccurs="1">
+			<xs:element name="min" type="xs:int" maxOccurs="1" minOccurs="1"/>
+			<xs:element name="max" type="xs:int" maxOccurs="1" minOccurs="1"/>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="spawnerdetails">
+		<xs:sequence>
+			<xs:element name="port" type="xs:int" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:sequence maxOccurs="1" minOccurs="0">
+				<xs:element name="username" type="xs:string" maxOccurs="1"
+					minOccurs="1">
+				</xs:element>
+				<xs:element name="password" type="xs:string" maxOccurs="1"
+					minOccurs="1">
+				</xs:element>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

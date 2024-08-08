@@ -1,0 +1,20 @@
+<project name="example" default="compile" basedir=".">
+  <!-- set global properties for this build -->
+  <property name="src" location="."/>
+  <property name="build" location="."/>
+
+  <!-- TODO better class path specifications -->
+  <path id="cp">
+      <fileset dir="../lib">
+		<include name="*.jar"/>
+      </fileset>
+  </path>
+
+  <target name="init">
+  </target>
+
+  <target name="compile" depends="init" description="compile the source " >
+	  <javac srcdir="${src}" destdir="${build}" debug="true" classpathref="cp" />
+  </target>
+
+</project>

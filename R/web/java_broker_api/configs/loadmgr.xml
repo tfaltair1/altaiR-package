@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<wpsbroker>
+	<defaultService>test1</defaultService>
+	<loadManager>
+		<host>localhost</host>
+		<port>5555</port>
+	</loadManager>
+	<socketService>
+		<name>test1</name>
+		<server>
+			<host>localhost</host>
+			<port>5001</port>
+		</server>
+		<server>
+			<host>localhost</host>
+			<portRange>
+				<min>5002</min>
+				<max>5005</max>
+			</portRange>
+		</server>
+	</socketService>
+</wpsbroker>

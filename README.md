@@ -14,12 +14,12 @@
 
 #### developed with intent to distribute as open source by tfantuzzo@altair.com
 
-## Authenticate
+## 1) Authenticate
 ```r
 auth("tfantuzzo@altair.com")
 ```
 
-## Run raw code
+## 2) Run raw code
 ```r
 compile(
 '
@@ -37,7 +37,7 @@ run;
 ', finalDSPath = "./sample_data.sas7bdat")
 ```
 
-## Run a file
+## 3) Run a file
 ```r
 runFile("./test.sas", finalDSPath = "./sample_data.sas7bdat")
 ```

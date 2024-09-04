@@ -3,24 +3,26 @@
 #' @param a1_username A string containing AltairOne username.
 #' @return The output from the executable.
 #' @export
+#'
+#' askpass(prompt = "Please enter your password: ")
 auth <- function(a1_username) {
   # Prompt for the password
   a1_password <- getPass::getPass("A1 Password: ")
-  
+
   # Format the username and password
   format_arg <- function(arg) {
     paste0("'", gsub('"', '', arg), "'")
   }
-  
+
   # Define the executable path and arguments
-  executable <- './R/MacOS/almutil'
+  executable <- '/opt/altair/slc/2024/bin/almutil'
   command <- paste(
     executable,
     "-a1auth",
     "-username", format_arg(a1_username),
-    "-passwd", format_arg(a1_password)
+    "-passwd", noquote(format_arg(a1_password))
   )
-  
+
   # Run the command and capture the output
   output <- tryCatch({
     system(command, intern = TRUE)
@@ -28,7 +30,7 @@ auth <- function(a1_username) {
     message("Error in running command: ", e$message)
     return(NULL)
   })
-  
+
   # Return the output or error message
   if (is.null(output)) {
     return("Error in running command")
@@ -48,16 +50,16 @@ compile <- function(code, finalDSPath = "./sample_data.sas7bdat") {
   temp_file <- tempfile(fileext = ".sas")
   writeLines(code, temp_file)
   base_name <- tools::file_path_sans_ext(basename(temp_file))
-  
-  output <- system2("./R/MacOS/wps", args = c(temp_file), stdout = TRUE, stderr = TRUE)
-  
+
+  output <- system2("/opt/altair/slc/2024/bin/wps", args = c(temp_file), stdout = TRUE, stderr = TRUE)
+
   log_file <- paste0("./",base_name, ".log")
   log_contents <- if (file.exists(log_file)) {
     readLines(log_file)
   } else {
     "Log file does not exist."
   }
-  
+
   unlink(temp_file)
   unlink(log_file)
   dataset <<- haven::read_sas(finalDSPath)
@@ -72,7 +74,7 @@ compile <- function(code, finalDSPath = "./sample_data.sas7bdat") {
 #' @return The output from the executable.
 #' @export
 runFile <- function(file_path, finalDSPath) {
-  output <- system2("./R/MacOS/wps", args = c(file_path), stdout = TRUE, stderr = TRUE)
+  output <- system2("/opt/altair/slc/2024/bin/wps", args = c(file_path), stdout = TRUE, stderr = TRUE)
   base_name <- tools::file_path_sans_ext(basename(file_path))
   log_file <- paste0("./",base_name, ".log")
   log_contents <- if (file.exists(log_file)) {
@@ -80,6 +82,6 @@ runFile <- function(file_path, finalDSPath) {
   } else {
     "Log file does not exist."
   }
-  
+
   dataset_fromfile <<- haven::read_sas(finalDSPath)
   return(list(executable_output = output, log_contents = log_contents))}
